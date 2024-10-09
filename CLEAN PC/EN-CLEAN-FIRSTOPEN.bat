@@ -94,6 +94,11 @@ cleanmgr /sageset:65535
 pause
 
 cleanmgr /sagerun:65535
+@echo.
+@echo Fin de l'Analyse
+@echo.
+
+
 @echo
 @echo.
 @echo End of scan. (Program by WillyLutin and English $translation by boywithasickle)

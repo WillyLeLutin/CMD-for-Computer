@@ -94,23 +94,6 @@ chkdsk
 
 pause
 
-@echo
-@echo.
-@echo Pour la suite tu vas devoir cocher toute les cases de la fenetre. 
-@echo.
-@echo
-
-pause
-
-cleanmgr /sageset:65535
-@echo
-@echo.
-@echo L'analyse est enregistrée pour les prochaines fois
-@echo.
-@echo
-
-pause
-
 cleanmgr /sagerun:65535
 @echo
 @echo.
@@ -124,3 +107,7 @@ cleanmgr /sagerun:65535
 @echo.
 
 pause
+
+
+
+
