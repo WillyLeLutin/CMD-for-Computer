@@ -10,7 +10,7 @@ Del /S /F /Q %temp%
 Del /S /F /Q %Windir%\Temp
 Del /S /F /Q C:\WINDOWS\Prefetch
 @echo.
-@echo Nettoyage terminé.
+@echo Nettoyage termine.
 @echo. 
 
 pause
@@ -24,7 +24,7 @@ pause
 
 dir/s
 @echo.
-@echo Analyse terminée.    
+@echo Analyse terminee.    
 @echo. 
 
 pause
@@ -35,30 +35,30 @@ pause
 
 pause
 
-wsreset
 @echo.
-@echo Nettoyage Microsoft store terminé
+@echo Une fois le Microsoft store ouvert, fermez le.
 @echo.
+
 
 pause
 
-cleanmgr/lowdisk/dc
+wsreset
 @echo.
-@echo Nettoyage terminé.
-@echo.
+@echo Nettoyage Microsoft store termine
+@echo
 
 pause
 
 @echo
 @echo.
-@echo Lancer une analyse des violations d'integrité Windows ?
+@echo Lancer une analyse des violations d'integrite Windows ?
 @echo.
 
 pause
 
 sfc /scannow
 @echo.
-@echo Analyse terminée.
+@echo Analyse terminee.
 @echo. 
 
 pause
@@ -81,7 +81,7 @@ pause
 
 @echo
 @echo.
-@echo Lancer une analyse des fichiers système ?
+@echo Lancer une analyse des fichiers systeme ?
 @echo.
 
 pause
@@ -89,7 +89,7 @@ pause
 chkdsk
 @echo
 @echo.
-@echo Analyse terminée.
+@echo Analyse terminee.
 @echo.
 
 pause
@@ -105,17 +105,12 @@ pause
 cleanmgr /sageset:65535
 @echo
 @echo.
-@echo L'analyse est enregistrée pour les prochaines fois
+@echo L'analyse est enregistree pour les prochaines fois
 @echo.
 @echo
 
 pause
 
-cleanmgr /sagerun:65535
-@echo
-@echo.
-@echo Fin de l'analyse.
-@echo.
 
 
 @echo

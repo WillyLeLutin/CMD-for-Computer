@@ -24,7 +24,7 @@ pause
 
 dir/s
 @echo.
-@echo Analyse terminée.    
+@echo Analyse terminee.    
 @echo. 
 
 pause
@@ -35,23 +35,22 @@ pause
 
 pause
 
-wsreset
 @echo.
-@echo Nettoyage Microsoft store terminé
+@echo Une fois le Microsoft store ouvert, fermez le.
 @echo.
 
 pause
 
-cleanmgr/lowdisk/dc
+wsreset
 @echo.
-@echo Nettoyage terminé.
+@echo Nettoyage Microsoft store termine
 @echo.
 
 pause
 
 @echo
 @echo.
-@echo Lancer une analyse des violations d'integrité Windows ?
+@echo Lancer une analyse des violations d'integrite Windows ?
 @echo.
 
 pause
@@ -65,7 +64,7 @@ pause
 
 @echo
 @echo.
-@echo Vider le cache du réseau?
+@echo Vider le cache du reseau?
 @echo.
 
 pause
@@ -81,7 +80,7 @@ pause
 
 @echo
 @echo.
-@echo Lancer une analyse des fichiers système ?
+@echo Lancer une analyse des fichiers systeme ?
 @echo.
 
 pause
@@ -89,7 +88,7 @@ pause
 chkdsk
 @echo
 @echo.
-@echo Analyse terminée.
+@echo Analyse terminee.
 @echo.
 
 pause

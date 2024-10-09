@@ -1,7 +1,7 @@
 @echo off
 color a
-@echo
-@echo. Clean the temp files of your pc ?
+@echo.
+@echo Clean temp files ?
 @echo.
 
 pause
@@ -17,7 +17,7 @@ pause
 
 @echo
 @echo.
-@echo  Scan your files ?
+@echo Scan your files ?
 @echo.
 
 pause
@@ -29,6 +29,25 @@ dir/s
 
 pause
 
+@echo.
+@echo Clean Microsoft store?
+@echo.
+
+pause
+
+@echo.
+@echo Once the Microsoft Store is open, close it.
+@echo.
+
+
+pause
+
+wsreset
+@echo.
+@echo Clean complete.
+@echo.
+
+pause
 
 @echo
 @echo.
@@ -46,7 +65,7 @@ pause
 
 @echo
 @echo.
-@echo Clear network cache ?
+@echo Clear network cache?
 @echo.
 
 pause
@@ -62,11 +81,10 @@ pause
 
 @echo
 @echo.
-@echo Scan of system files ?
+@echo Scan system files ?
 @echo.
 
 pause
-
 
 chkdsk
 @echo
@@ -82,9 +100,7 @@ pause
 @echo.
 @echo
 
-pause
-
-cleanmgr /sageset:65535
+cleanmgr /sagerun:65535
 @echo
 @echo.
 @echo Scan is saved for next time.
@@ -93,16 +109,12 @@ cleanmgr /sageset:65535
 
 pause
 
-cleanmgr /sagerun:65535
-@echo.
-@echo Fin de l'Analyse
-@echo.
-
-
 @echo
 @echo.
-@echo End of scan. (Program by WillyLutin and English $translation by boywithasickle)
+@echo End of scan. (Program by WillyLutin and English translation by boywithasickle)
 @echo.
+
+pause
 
 
 
