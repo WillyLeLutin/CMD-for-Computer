@@ -64,21 +64,6 @@ sfc /scannow
 
 pause
 
-@echo.
-@echoveux tu lancer une defragmentation
-@echo.
-
-pause
-
-defrag c: /U /V
-@echo.
-@echo la defrafmentation est terminer
-@echo.
-
-pause
-
-
-
 @echo
 @echo.
 @echo veux tu vider le cache du reseau?
