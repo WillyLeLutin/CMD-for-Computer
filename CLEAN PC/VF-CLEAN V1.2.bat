@@ -29,6 +29,26 @@ dir/s
 
 pause
 
+@echo.
+@echo veux tu lancer un clean du windows store?
+@echo.
+
+pause
+
+wsreset
+@echo.
+@echo Le clean de windows store est terminer
+@echo.
+pause
+
+
+cleanmgr/lowdisk/dc
+@echo.
+@echo le clean du disque est terminer
+@echo.
+
+pause
+
 
 @echo
 @echo.
