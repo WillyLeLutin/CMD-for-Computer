@@ -99,7 +99,7 @@ cleanmgr /sagerun:65535
 @echo fin de l'analyse.
 @echo.
 
-pause
+
 
 
 
