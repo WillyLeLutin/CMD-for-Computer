@@ -51,6 +51,19 @@ pause
 
 pause
 
+@echo.
+@echoveux tu lancer une defragmentation
+@echo.
+
+pause
+
+defrag c: /U /V
+@echo.
+@echo la defrafmentation est terminer
+@echo.
+
+pause
+
 
 
 ipconfig /flushdns
@@ -98,38 +111,6 @@ cleanmgr /sagerun:65535
 @echo.
 @echo fin de l'analyse.
 @echo.
-
-
-
-
-
-
-
-
-
-
-@echo
-@echo.
-@echo veux tu lancer un clean de ton disque
-@echo.
-
-pause
-
-@echo
-@echo.
-@echo la suite se passera sur une autre fenetre
-@echo.
-
-pause
-
-
-
-cleanmgr
-@echo.
-@echo le clean est termine !
-@echo. 
-
-pause
 
 
 
