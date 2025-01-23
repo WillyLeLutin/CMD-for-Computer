@@ -1,11 +1,11 @@
 @echo 
-@echo Avant de commencer la copy veuillez modifier le fichier au niveau de Xcopy en mettant la racine du fichier que vous souaiter copier
+@echo Before starting the copy please modify the file in Xcopy by putting the root of the file you wish to copy
 @echo off
 
 pause
 
 @echo 
-@echo nous allons demarer la copy
+@echo We will start the copy
 @echo off
 
 pause
@@ -19,7 +19,7 @@ Xcopy C:\Users\wboss\Downloads D:\SavPrecis /E
 
 @echo 
 
-@echo copy terminer
+@echo copy finish
 @echo off
 
 pause 
