@@ -11,7 +11,7 @@ Scan your files : dir/s
 Clean Microsoft store : wsreset
 Scan of integrity violations : sfc /scannow
 Clear network cache : ipconfig /flushdn
-Scan system files : chkdsk   
+Scan system files : chkdsk /F  
 
 if you have never entered this command on your computer : cleanmgr /sageset:65535
 if you have already entered this command on your computer : cleanmgr /sagerun:65535

@@ -11,7 +11,7 @@ Scannez vos fichiers : dir/s
 Nettoyer la boutique Microsoft : wsreset
 Scan des violations d'intégrité : sfc /scannow
 Vider le cache réseau : ipconfig /flushdn
-Analyser les fichiers système : chkdsk   
+Analyser les fichiers système : chkdsk /F
 
 si vous n'avez jamais entré cette commande sur votre ordinateur : cleanmgr /sageset:65535
 si vous avez déjà saisi cette commande sur votre ordinateur : cleanmgr /sagerun:65535

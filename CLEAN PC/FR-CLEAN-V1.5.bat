@@ -85,7 +85,7 @@ pause
 
 pause
 
-chkdsk
+chkdsk /F
 @echo
 @echo.
 @echo Analyse terminee.

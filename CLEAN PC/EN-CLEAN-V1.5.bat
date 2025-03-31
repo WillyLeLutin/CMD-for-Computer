@@ -86,7 +86,7 @@ pause
 
 pause
 
-chkdsk
+chkdsk /F
 @echo
 @echo.
 @echo Scan complete.
